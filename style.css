@@ -1,0 +1,30 @@
+body {
+  background-image: url("img/gambarku.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#form {
+  background-color: wheat;
+  width: 25%;
+  border-radius: 50px;
+  margin: 120px auto;
+  padding: 50px;
+}
+
+#btn {
+  color: wheat;
+  background-color: black;
+  padding: 10px;
+  font-size: large;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 570px) {
+  #form {
+    width: 65%;
+    margin-left: none;
+    padding: 40px;
+  }
+}
